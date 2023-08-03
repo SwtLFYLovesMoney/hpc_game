@@ -1,4 +1,4 @@
-# neon_geme
+# neon_game
 
 安装qemu仿真平台：
 
