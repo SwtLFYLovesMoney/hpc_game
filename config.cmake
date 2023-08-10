@@ -1,3 +1,9 @@
-set(TOP_DIR /home/lfy/new/code/hpc_game/)
+set(TOP_DIR ${CMAKE_CURRENT_SOURCE_DIR}/)
+
+# debug
+# message(STATUS "${CMAKE_CURRENT_BINARY_DIR}")
+# message(STATUS "${CMAKE_CURRENT_SOURCE_DIR}")
+
+message(STATUS "${TOP_DIR}")
 
 set(EXECUTABLE_OUTPUT_PATH ${TOP_DIR}/output)
