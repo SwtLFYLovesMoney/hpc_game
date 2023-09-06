@@ -7,3 +7,4 @@ include_directories(SYSTEM ${TOP_DIR}/include/eigen/)
 
 # add_subdirectory(${TOP_DIR}/src/hello_sve)
 add_subdirectory(${TOP_DIR}/src/hello_neon)
+add_subdirectory(${TOP_DIR}/src/hello_eigen)
