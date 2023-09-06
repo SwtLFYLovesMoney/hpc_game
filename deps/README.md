@@ -1,0 +1,1 @@
+把当前目录的CMakeLists.txt替换到拉下来的opencv/CMakeLists.txt
