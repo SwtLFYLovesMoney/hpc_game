@@ -2,7 +2,8 @@
 #include <vector>
 #include <chrono>
 #include <arm_neon.h>
-#include <Eigen/Eigen>
+
+#include "func.h"
 
 using namespace std;
 
@@ -19,11 +20,7 @@ int main()
         cout << "hello neon!" << endl;
     }
     {
-        Eigen::Matrix3d rotateMat;
-        rotateMat << 1, 2, 3,
-                     4, 5, 6,
-                     7, 8, 9;
-        cout << rotateMat << endl;
+        
     }
 
     return 0;
