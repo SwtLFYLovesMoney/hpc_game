@@ -4,7 +4,7 @@ set(proj_name hello_eigen)
 project(${proj_name})
 
 # compiler option
-set(CMAKE_CXX_COMPILER "/usr/bin/arm-linux-gnueabihf-g++")
+# set(CMAKE_CXX_COMPILER "/usr/bin/arm-linux-gnueabihf-g++")
 
 include_directories(PUBLIC ${TOP_DIR}/include/eigen/)
 
