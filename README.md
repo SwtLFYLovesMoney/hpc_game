@@ -15,3 +15,4 @@ sudo apt-get install libc6-armhf-cross
 编译完成后，执行：
 ./run.sh xxx
 即可运行
+
